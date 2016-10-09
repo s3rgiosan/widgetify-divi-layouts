@@ -13,7 +13,7 @@
  * Plugin Name:       Widgetify Divi Layouts
  * Plugin URI:        https://github.com/vint3creative/widgetify-divi-layouts
  * Description:       Use your favorite Divi layouts, sections, rows or modules as widgets.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Vint3
  * Author URI:        http://vint3.com/
  * License:           GPL-2.0+
@@ -41,6 +41,6 @@ if ( ! defined( 'WPINC' ) ) {
  * @since 1.0.0
  */
 \add_action( 'plugins_loaded', function () {
-	$plugin = new WidgetifyLayouts\Plugin( 'widgetify-divi-layouts', '1.0.0' );
+	$plugin = new WidgetifyLayouts\Plugin( 'widgetify-divi-layouts', '1.0.1' );
 	$plugin->run();
 } );

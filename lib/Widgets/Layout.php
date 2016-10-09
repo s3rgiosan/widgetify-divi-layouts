@@ -134,6 +134,8 @@ class Layout extends \WP_Widget {
 	/**
 	 * Sanitize widget form values as they are saved.
 	 *
+	 * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+	 *
 	 * @see \WP_Widget::update()
 	 *
 	 * @since  1.0.0
