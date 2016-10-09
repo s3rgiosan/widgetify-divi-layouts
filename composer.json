@@ -1,0 +1,37 @@
+{
+  "name": "vint3/widgetify-divi-layouts",
+  "description": "Use Divi layouts as widgets.",
+  "type": "wordpress-plugin",
+  "keywords": ["wordpress", "plugin"],
+  "homepage": "https://github.com/vint3creative/widgetify-divi-layouts.git",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Vint3",
+      "email": "hello@vint3.com",
+      "homepage": "http://vint3.com"
+    },
+    {
+      "name": "Sérgio Santos",
+      "email": "me@s3rgiosan.com",
+      "homepage": "https://s3rgiosan.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/vint3creative/widgetify-divi-layouts/issues",
+    "source": "https://github.com/vint3creative/widgetify-divi-layouts"
+  },
+  "autoload": {
+    "psr-4": {
+      "Vint3\\Divi\\WidgetifyLayouts\\": "lib/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Vint3\\Tests\\Divi\\WidgetifyLayouts\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "dangoodman/composer-for-wordpress": "^1.0"
+  }
+}
