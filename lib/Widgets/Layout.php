@@ -63,7 +63,6 @@ class Layout extends \WP_Widget {
 			return;
 		}
 
-		$layout = $layout[0];
 		if ( empty( $layout->post_content ) ) {
 			return;
 		}
