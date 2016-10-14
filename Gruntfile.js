@@ -10,7 +10,11 @@ module.exports = function (grunt) {
     textDomain:  'widgetify-divi-layouts',
     potFilename: 'widgetify-divi-layouts',
     badges:      {
-      codacy: '[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1eba0655c6fb4afdb2fa06c630aeb7f5)](https://www.codacy.com/app/s3rgiosan/widgetify-divi-layouts?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vint3creative/widgetify-divi-layouts&amp;utm_campaign=Badge_Grade)',
+      packagist_stable:    '[![Latest Stable Version](https://poser.pugx.org/vint3/widgetify-divi-layouts/v/stable)](https://packagist.org/packages/vint3/widgetify-divi-layouts)',
+      packagist_downloads: '[![Total Downloads](https://poser.pugx.org/vint3/widgetify-divi-layouts/downloads)](https://packagist.org/packages/vint3/widgetify-divi-layouts)',
+      packagist_license:   '[![License](https://poser.pugx.org/vint3/widgetify-divi-layouts/license)](https://packagist.org/packages/vint3/widgetify-divi-layouts)',
+      codacy_grade:        '[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1eba0655c6fb4afdb2fa06c630aeb7f5)](https://www.codacy.com/app/s3rgiosan/widgetify-divi-layouts?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vint3creative/widgetify-divi-layouts&amp;utm_campaign=Badge_Grade)',
+      codeclimate_grade:   '[![Code Climate](https://codeclimate.com/github/vint3creative/widgetify-divi-layouts/badges/gpa.svg)](https://codeclimate.com/github/vint3creative/widgetify-divi-layouts)',
     },
   };
 
